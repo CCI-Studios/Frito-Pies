@@ -1,1 +1,39 @@
+#bottom, #footer {
+	margin: 0 auto;
+	width: 1050px;
+}
 
+#top {
+	background: url(../images/canopy.png) center 26px no-repeat;
+	height: 400px; /*fixme */
+}
+
+#top > div {
+	background: white;
+	border-top: #9c1b29 solid 5px;
+	border-bottom: #9c1b29 solid 5px;
+	height: 30px; /* fixme */
+}
+
+#bottom {
+	background: url(../images/bottomborder.png) bottom no-repeat;
+	height: 100px; /* fixme */
+}
+
+#footer { 
+	font-size: 10px;
+	margin: 0 auto;
+	padding-top: 10px;
+	
+}
+#footer .right a,
+#footer .right span {
+	color: #203165;
+	text-decoration: none;
+}
+
+#footer .right a:hover,
+#footer .right span:hover {
+	color: #9c1b29;
+	text-decoration: underline;
+}

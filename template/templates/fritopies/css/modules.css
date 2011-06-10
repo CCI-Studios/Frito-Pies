@@ -1,1 +1,28 @@
+/* main menu begins */
+.moduletable_menu { font-size: 12px; }
+.moduletable_menu ul { 
+	list-style-type: none; 
+	text-transform: capitalize;
+	margin: 0;
+ }
+.moduletable_menu li { 
+	display: inline;
+	margin: 0;
+	padding: 10px;
+}
+.moduletable_menu li > a,
+.moduletable_menu li > span { 
+	color: #203165; 
+	text-decoration: none;
+}
+.moduletable_menu li > a:hover,
+.moduletable_menu li > span:hover { 
+	color: white;
+}
+/* main menu ends */
 
+/* bottom menu begins */
+
+
+
+/* bottom menu ends */
