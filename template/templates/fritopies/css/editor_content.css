@@ -2,4 +2,23 @@
 
 .left { float: left; }
 
+.readmore {
+	color: #203165;
+	float: right;
+	font-size: 10px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.readmore:hover {
+	color: #9c1b29;
+}
+
 .right { float: right; }
+
+.title {
+	font-size: 12px;
+	font-weight: bold;	
+}
