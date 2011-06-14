@@ -1,7 +1,8 @@
-#bottom, #footer {
-	margin: 0 auto;
-	width: 1050px;
-}
+#bottom, #footer, #component, #mainmenu { margin: 0 auto; }
+
+#bottom { width: 1050px; }
+#footer, #mainmenu { width: 970px; }
+#component { width: 960px; }
 
 #top {
 	background: url(../images/canopy.png) center 26px no-repeat;
@@ -10,22 +11,47 @@
 
 #top > div {
 	background: white;
-	border-top: #9c1b29 solid 5px;
 	border-bottom: #9c1b29 solid 5px;
-	height: 30px; /* fixme */
+	border-top: #9c1b29 solid 5px;
 }
 
-#bottom {
-	background: url(../images/bottomborder.png) bottom no-repeat;
-	height: 100px; /* fixme */
+#mainmenu {  
+	padding: 10px 0px;
+	text-align: center;
 }
 
-#footer { 
-	font-size: 10px;
-	margin: 0 auto;
-	padding-top: 10px;
-	
+#content {
+	background: url(../images/contenttopborder.png) top no-repeat;
+	height: 57px; /* fixme */
+	padding-top: 43px;
 }
+
+#component {
+	background: white;
+}
+
+#component > div {
+	padding: 38px 0 38px 16px;
+}
+
+#component .moduletable {
+	float: left;
+	padding-right: 16px;
+	width: 290px;
+}
+
+#bottom_menu {
+	padding: 10px 0px;
+	text-align: center;
+}
+
+#bottom > div {
+	background: url(../images/contentbottomborder.png) bottom no-repeat;
+	height: 57px; /* fixme */
+}
+
+#footer { font-size: 10px; }
+
 #footer .right a,
 #footer .right span {
 	color: #203165;

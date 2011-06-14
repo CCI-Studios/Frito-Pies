@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <install version="1.5" type="template">
-    <name>Frito Pies & More</name>
+    <name>Frito Pies &amp; More</name>
     <version>1.0</version>
     <creationDate>June 9, 2011</creationDate>
     <author>Darren Murray</author>
     <authorEmail>dmurray@ccistudios.com</authorEmail>
     <authorUrl>http://www.ccistudios.com</authorUrl>
-    <copyright>Copyright 2011 - Frito Pies & More</copyright>
+    <copyright>Copyright 2011 - Frito Pies &amp; More</copyright>
     <license>GNU v3</license>
     <description>
         <![CDATA[
@@ -23,6 +23,7 @@
  
     <positions>
 		<position>top</position>
+		<position>main_menu</position>
 		<position>social_media</position>
 		<position>events</position>
 		<position>bottom</position>
