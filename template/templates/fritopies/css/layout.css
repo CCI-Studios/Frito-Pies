@@ -1,33 +1,50 @@
-#bottom, #footer, #component, #mainmenu { margin: 0 auto; }
-
-#bottom { width: 1050px; }
-#footer, #mainmenu { width: 970px; }
-#component { width: 960px; }
-
-#top {
-	background: url(../images/canopy.png) center 26px no-repeat;
-	height: 400px; /*fixme */
+#mainmenu > div, #header > div > div, #footer > div {
+	margin: 0 auto;
+	padding: 0 5px;
+	width: 960px;
 }
 
-#top > div {
-	background: white;
-	border-bottom: #9c1b29 solid 5px;
-	border-top: #9c1b29 solid 5px;
+#mainmenu {
+	background: url(../images/top_menu_bg.png) repeat-x;
+	height: 50px;
+	position: relative;
+	z-index: 5;
 }
 
-#mainmenu {  
-	padding: 10px 0px;
-	text-align: center;
+#header {
+	background: url(../images/tabletop_w_poles.png) center bottom no-repeat;
+	margin-top: -20px;
+	position: relative;
+	z-index: 1;
 }
 
-#content {
+#header > div {
+	background: url(../images/canopy.png) center top no-repeat;
+	padding-top: 340px;
+}
+
+#header > div > div {
+	position: relative;
+}
+
+#body {
 	background: url(../images/contenttopborder.png) top no-repeat;
-	height: 57px; /* fixme */
 	padding-top: 43px;
+}
+#body > div {
+	background: url(../images/contentbottomborder.png) bottom no-repeat;
+	padding: 0 5px 60px;
+}
+#body > div > div {
+	background: white;
+	margin: 0 auto;
+	width: 960px;
 }
 
 #component {
-	background: white;
+	float: left; 
+	margin-left: 5px;
+	width: 640px;
 }
 
 #component > div {
@@ -36,18 +53,23 @@
 
 #component .moduletable {
 	float: left;
-	padding-right: 16px;
-	width: 290px;
+	padding-left: 16px;
+}
+
+#component .moduletable:first-child {
+	padding-left: 0;
+}
+
+#sidebar { 
+	background: white;
+	float: left; 
+	padding: 8px 16px;
+	width: 288px;
 }
 
 #bottom_menu {
 	padding: 10px 0px;
 	text-align: center;
-}
-
-#bottom > div {
-	background: url(../images/contentbottomborder.png) bottom no-repeat;
-	height: 57px; /* fixme */
 }
 
 #footer { font-size: 10px; }
