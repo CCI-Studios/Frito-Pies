@@ -1,1 +1,9 @@
+#napkins {
+	left: 900px;
+	bottom: 10px;
+	position: absolute;
+}
 
+.home #napkins {
+	left: 550px;
+}
