@@ -1,10 +1,5 @@
-html {
-	background: #dfd9cf;
-}
-
 body { 
-	background: #f5f0e7;
-	height: 656px; /* fixme */
+	background: #f5f0e7 url(../images/body_bg.png) repeat-x; /* fixme */
 	color: #203165;
 	font-family: Arial;
 	font-size: 12px;	
@@ -26,4 +21,10 @@ h2 { font-size: 14px; }
 h3 { 
 	font-size: 14px; 
 	padding-bottom: 5px;
+}
+
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px 0;
 }
