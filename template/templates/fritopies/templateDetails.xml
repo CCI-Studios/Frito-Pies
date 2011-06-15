@@ -24,8 +24,8 @@
     <positions>
 		<position>top</position>
 		<position>main_menu</position>
-		<position>social_media</position>
-		<position>events</position>
+		<position>tablestand</position>
+		<position>sidebar</position>
 		<position>bottom</position>
 		<position>bottom_menu</position>
 		<position>hidden</position>
