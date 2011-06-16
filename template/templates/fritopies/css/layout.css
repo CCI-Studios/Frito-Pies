@@ -13,18 +13,36 @@
 
 #header {
 	background: url(../images/tabletop_w_poles.png) center bottom no-repeat;
-	margin-top: -20px;
+	margin-top: -210px;
+	min-height: 300px;
 	position: relative;
-	z-index: 1;
-}
-
-#header > div {
-	background: url(../images/canopy.png) center top no-repeat;
-	padding-top: 340px;
+	z-index: -1;
 }
 
 #header > div > div {
+	min-height: 85px;
 	position: relative;
+}
+
+.home #header > div > div { min-height: 500px; z-index: 1;}
+
+.home #tablestand {	
+	background: url(../images/tablestand.png) right bottom no-repeat;
+	position: absolute;
+	right: 100px;
+	bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.home #tablestand > div {
+	background: url(../images/tablestand.png) left top no-repeat;
+	padding-top: 24px;
+}
+
+.home #tablestand > div > div {
+	background: url(../images/tablestand.png) center;
+	height: 100px;	
+	width: 204px;
 }
 
 #body {
@@ -44,11 +62,11 @@
 #component {
 	float: left; 
 	margin-left: 5px;
-	width: 640px;
+	width: 635px;
 }
 
 #component > div {
-	padding: 38px 0 38px 16px;
+	padding: 8px 0 38px 16px;
 }
 
 #component .moduletable {
