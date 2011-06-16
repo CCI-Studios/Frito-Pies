@@ -1,9 +1,61 @@
+#canopy {
+	margin-top: -20px;
+	z-index: 0;
+}
+#canopy > div {
+	margin: 0 auto;
+	width: 1050px;
+}
+
 #napkins {
-	left: 900px;
-	bottom: 10px;
+	left: 50px;
+	bottom: 15px;
 	position: absolute;
 }
 
-.home #napkins {
-	left: 550px;
+#tray {
+	left: 210px;
+	bottom: 5px;
+	position: absolute;	
 }
+
+.home #tray {
+	left: 210px;
+}
+
+#socialmedia {
+	right: 73px;
+	top: 50px;
+	position: absolute;
+}
+
+#heading {
+	background: url(../images/headingbg.png) no-repeat;
+	height: 74px;
+	right: 72px;
+	bottom: 5px;
+	position: absolute;
+	width: 300px;
+}
+
+.home #heading {
+	background: none;
+}
+#pot {
+	display: none;
+	left: 460px;
+	bottom: 15px;
+	position: absolute;
+	z-index: 1;
+}
+.home #pot { display: block; }
+
+#people {
+	display: none;
+	left: 84px;
+	bottom: 40px;
+	position: absolute;
+	z-index: -3;
+}
+
+.home #people { display: block; }
