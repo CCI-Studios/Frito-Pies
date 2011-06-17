@@ -1,61 +1,58 @@
 #canopy {
-	margin-top: -20px;
-	z-index: 0;
-}
-#canopy > div {
-	margin: 0 auto;
-	width: 1050px;
+	left: -45px;
+	position: absolute;
+	top: 0;
+	z-index: 4;
 }
 
 #napkins {
-	left: 50px;
 	bottom: 15px;
+	left: 50px;
 	position: absolute;
 }
 
-#tray {
-	left: 210px;
+#tray {	
 	bottom: 5px;
+	left: 210px;
 	position: absolute;	
 }
 
-.home #tray {
-	left: 210px;
-}
 
 #socialmedia {
-	right: 73px;
-	top: 50px;
 	position: absolute;
+	right: 73px;
+	top: 100px;
+	z-index: 3;
 }
 
 #heading {
 	background: url(../images/headingbg.png) no-repeat;
+	bottom: 15px;
 	height: 74px;
-	right: 72px;
-	bottom: 5px;
 	position: absolute;
+	right: 60px;
 	width: 300px;
 }
 
 .home #heading {
-	background: none;
+	display: none;
 }
-#pot {
+
+#pot {	
+	bottom: 15px;
 	display: none;
 	left: 460px;
-	bottom: 15px;
 	position: absolute;
 	z-index: 1;
 }
 .home #pot { display: block; }
 
 #people {
+	bottom: 40px;
 	display: none;
 	left: 84px;
-	bottom: 40px;
 	position: absolute;
-	z-index: -3;
+	z-index: -1;
 }
 
 .home #people { display: block; }
