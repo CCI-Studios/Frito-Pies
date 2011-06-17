@@ -33,3 +33,5 @@ h4 {
 	font-weight: bold;
 	padding: 5px 0;
 }
+
+.article { position: relative; }
