@@ -42,6 +42,13 @@
 	color: #203165; 
 	text-decoration: none;
 }
+.moduletable li > a { 
+	background: url(../images/separator.png) left no-repeat;
+	padding-left: 8px;
+}
+.moduletable li:first-child > a {
+	background: none;
+}
 .moduletable li > a:hover,
 .moduletable li > span:hover { 
 	color: #9c1b29; 
@@ -56,12 +63,10 @@
 .module-newsflash .item:first-child {
 	border-top: none;
 }
-
 .module-newsflash .item {
 	border-top: #d9d9d9 1px solid;
 	padding-bottom: 20px;
 }
-
 /* media module ends */
 
 
