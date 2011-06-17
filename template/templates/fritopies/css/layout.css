@@ -1,4 +1,4 @@
-#mainmenu > div, #header > div > div, #footer > div {
+#mainmenu > div, #header, #footer > div {
 	margin: 0 auto;
 	padding: 0 5px;
 	width: 960px;
