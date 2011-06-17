@@ -13,18 +13,12 @@
 
 #header {
 	background: url(../images/tabletop_w_poles.png) center bottom no-repeat;
-	margin-top: -210px;
-	min-height: 300px;
-	position: relative;
-	z-index: -1;
-}
-
-#header > div > div {
-	min-height: 85px;
+	margin-top: -20px;
+	min-height: 335px;
 	position: relative;
 }
 
-.home #header > div > div { min-height: 500px; z-index: 1;}
+.home #header { min-height: 550px; }
 
 .home #tablestand {	
 	background: url(../images/tablestand.png) right bottom no-repeat;
@@ -41,7 +35,6 @@
 
 .home #tablestand > div > div {
 	background: url(../images/tablestand.png) center;
-	height: 100px;	
 	width: 204px;
 }
 
@@ -57,6 +50,12 @@
 	background: white;
 	margin: 0 auto;
 	width: 960px;
+}
+
+#component img,
+#rotator {
+	border: #d9d9d9 2px solid; 
+	margin: 5px 5px 5px 0;
 }
 
 #component {
@@ -83,6 +82,11 @@
 	float: left; 
 	padding: 8px 16px;
 	width: 288px;
+}
+
+#sidebar img {
+	border: #d9d9d9 2px solid; 
+	margin: 5px 5px 5px 0;
 }
 
 #bottom_menu {
