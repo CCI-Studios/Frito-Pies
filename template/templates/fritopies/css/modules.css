@@ -29,13 +29,13 @@
 	padding: 12px 0;
 	text-align: center;
 	text-transform: capitalize;
- }
+}
 .moduletable li { 
 	display: inline;
-	padding: 12px 0 12px 9px;
+	padding: 12px 0px 12px 8px;
 }
 .moduletable li:first-child {
-	padding: 12px 0 12px 0px;
+	padding: 12px 0;
 }
 .moduletable li > a,
 .moduletable li > span { 
