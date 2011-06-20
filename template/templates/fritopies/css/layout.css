@@ -1,4 +1,4 @@
-#mainmenu > div, #header, #footer > div {
+#header, #footer > div {
 	margin: 0 auto;
 	padding: 0 5px;
 	width: 960px;
@@ -9,6 +9,13 @@
 	height: 50px;
 	position: relative;
 	z-index: 5;
+}
+
+#mainmenu > div {
+	margin: 0 auto;
+	padding: 0 5px;
+	text-align: center;
+	width: 1050px;
 }
 
 #header {
