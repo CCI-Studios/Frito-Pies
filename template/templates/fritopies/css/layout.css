@@ -1,4 +1,4 @@
-#header, #footer > div {
+#header, #footer > div  {
 	margin: 0 auto;
 	padding: 0 5px;
 	width: 960px;
@@ -101,7 +101,7 @@
 	text-align: center;
 }
 
-#footer { font-size: 10px; }
+#footer { font-size: 10px; padding: 0 10px 40px 10px; }
 
 #footer .right a,
 #footer .right span {
