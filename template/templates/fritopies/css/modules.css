@@ -89,6 +89,10 @@
 #bottom .moduletable .menu {
 	width: 960px;
 }
+
+#bottom .moduletable img {
+	border: #d9d9d9 2px solid;
+}
 /* homepage ends */
 
 
