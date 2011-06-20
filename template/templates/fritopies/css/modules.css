@@ -12,7 +12,7 @@
 .moduletable_menu li > a,
 .moduletable_menu li > span { 
 	color: #203165; 
-	padding: 10px 30px;
+	padding: 10px 35px;
 	text-decoration: none;
 }
 .moduletable_menu li > a:hover,
@@ -31,24 +31,20 @@
 	text-transform: capitalize;
 }
 .moduletable li { 
+	background: url(../images/separator.png) left no-repeat;
 	display: inline;
-	padding: 12px 0px 12px 8px;
+	padding: 12px 8px 12px 8px;
 }
-.moduletable li:first-child {
-	padding: 12px 0;
+.moduletable li:first-child {	
+	background: none;
+	padding: 12px 8px 12px 0;
 }
 .moduletable li > a,
 .moduletable li > span { 
 	color: #203165; 
 	text-decoration: none;
 }
-.moduletable li > a { 
-	background: url(../images/separator.png) left no-repeat;
-	padding-left: 8px;
-}
-.moduletable li:first-child > a {
-	background: none;
-}
+
 .moduletable li > a:hover,
 .moduletable li > span:hover { 
 	color: #9c1b29; 
@@ -85,8 +81,9 @@
 	display: none; 
 }
 .home #bottom .moduletable {
-	padding: 16px;
-	width: 300px;
+	float: left;
+	padding: 16px 16px 0;
+	width: 288px;
 }
 
 #bottom .moduletable .menu {
