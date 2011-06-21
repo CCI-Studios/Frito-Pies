@@ -34,7 +34,7 @@ if ($menu)
 		</div>
 		
 		<div id="socialmedia">
-			<img src="templates/fritopies/images/social_media-sign.png" alt=""/>
+				<jdoc:include type="modules" name="socialmedia" style="xhtml" />
 		</div>
 		
 		<div id="people">
