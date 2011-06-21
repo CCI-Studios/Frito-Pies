@@ -12,7 +12,10 @@
 	text-transform: uppercase;
 }
 
-.readmore:hover { color: #9c1b29; }
+.readmore:hover { 
+	color: #9c1b29;
+	text-decoration: underline;
+}
 
 .red { color: #9c1b29; }
 

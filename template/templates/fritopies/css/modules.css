@@ -42,12 +42,13 @@
 .moduletable li > a,
 .moduletable li > span { 
 	color: #203165; 
-	text-decoration: none;
+	text-decoration: none;	
 }
 
 .moduletable li > a:hover,
 .moduletable li > span:hover { 
 	color: #9c1b29; 
+	text-decoration: underline;
 }
 .moduletable li:hover > a.separator, 
 .moduletable li:hover > span.separator { 
