@@ -51,7 +51,7 @@
 }
 #body > div {
 	background: url(../images/contentbottomborder.png) bottom no-repeat;
-	padding: 0 5px 56px;
+	padding: 0 5px 43px;
 }
 #body > div > div {
 	background: white;
@@ -98,7 +98,7 @@
 	text-align: center;
 }
 
-#footer { font-size: 10px; padding: 0 10px 40px 10px; }
+#footer { font-size: 10px; padding: 8px 10px 40px 10px; }
 
 #footer .right a,
 #footer .right span {

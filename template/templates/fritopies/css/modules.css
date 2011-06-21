@@ -3,7 +3,7 @@
 .moduletable_menu ul { 
 	font-weight: bold;
 	list-style-type: none; 
-	padding: 15px 0;
+	padding-top: 13px;
 	text-transform: capitalize;
 }
 .moduletable_menu li { 
