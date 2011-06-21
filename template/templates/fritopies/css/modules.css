@@ -3,17 +3,23 @@
 .moduletable_menu ul { 
 	font-weight: bold;
 	list-style-type: none; 
-	padding-top: 13px;
+	padding: 5px 0 14px;
 	text-transform: capitalize;
 }
 .moduletable_menu li { 
-	display: inline;
+	display: inline-block;
+	*display: inline;
 }
 .moduletable_menu li > a,
 .moduletable_menu li > span { 
 	color: #203165; 
-	padding: 10px 35px;
+	display: inline-block;
+	*display: inline;
+	height: 31px;
+	line-height: 31px;
+	padding: 0 35px;
 	text-decoration: none;
+	zoom: 1;
 }
 .moduletable_menu li > a:hover,
 .moduletable_menu li > span:hover { 
