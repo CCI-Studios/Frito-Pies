@@ -96,5 +96,18 @@
 }
 /* homepage ends */
 
+/* contact begins */
 
+.article p > a {
+	color: #203165;
+	text-decoration: none;
+}
+
+.article p > a:hover {
+	color: #9c1b29;
+	text-decoration: underline;
+}
+
+
+/* contact ends */
 
