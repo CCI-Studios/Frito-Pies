@@ -59,11 +59,12 @@
 	width: 960px;
 }
 
-#component img,
-#rotator {
+#component img {
 	border: #d9d9d9 2px solid; 
 	margin: 5px 5px 5px 0;
 }
+
+#rotator { margin: 5px 5px 5px 0; }
 
 #component {
 	float: left; 
@@ -71,18 +72,14 @@
 	width: 635px;
 }
 
-#component > div {
-	padding: 8px 0 0px 16px;
-}
+#component > div { padding: 8px 0 0px 16px; }
 
 #component .moduletable {
 	float: left;
 	padding-left: 16px;
 }
 
-#component .moduletable:first-child {
-	padding-left: 0;
-}
+#component .moduletable:first-child { padding-left: 0; }
 
 #sidebar { 
 	background: white;
