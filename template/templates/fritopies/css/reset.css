@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+strong { font-weight: bold; }
+
 p {
 	margin: 1em 0;
 }
