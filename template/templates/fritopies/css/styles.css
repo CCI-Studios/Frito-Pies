@@ -5,6 +5,13 @@
 	z-index: 4;
 }
 
+#logo {
+	top: 64px;
+	position: absolute;
+	left: 383px;
+	z-index: 5;
+}
+
 #napkins {
 	bottom: 15px;
 	left: 50px;

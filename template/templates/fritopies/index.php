@@ -25,6 +25,12 @@ if ($menu)
 			<img src="templates/fritopies/images/canopy.png" alt=""/>
 		</div>
 		
+		<div id="logo">	
+			<a href="http://dev.fritopies.ca/">
+				<img src="templates/fritopies/images/frito_logo.png" alt="Frito Pies &amp; More Logo"/>
+			</a>
+		</div>
+		
 		<div id="napkins">
 			<img src="templates/fritopies/images/napkins.png" alt=""/>
 		</div>
