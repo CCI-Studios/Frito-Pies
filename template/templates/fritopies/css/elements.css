@@ -1,3 +1,11 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-width: 1070px;
+	
+}
+
 body { 
 	background: #dfd9cf url(../images/body_bg.png) repeat-x;
 	color: #203165;
