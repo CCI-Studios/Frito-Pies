@@ -26,7 +26,7 @@ if ($menu)
 		</div>
 		
 		<div id="logo">	
-			<a href="http://dev.fritopies.ca/">
+			<a href="http://www.fritopies.ca/">
 				<img src="templates/fritopies/images/frito_logo.png" alt="Frito Pies &amp; More Logo"/>
 			</a>
 		</div>
