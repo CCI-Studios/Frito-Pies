@@ -98,7 +98,11 @@
 	text-align: center;
 }
 
-#footer { font-size: 10px; padding: 8px 10px 40px 10px; }
+#footer { 
+	font-size: 10px; 
+	line-height: 47px;
+	padding: 8px 10px 40px 10px; 
+}
 
 #footer .right a,
 #footer .right span {

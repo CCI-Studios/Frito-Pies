@@ -85,13 +85,22 @@ if ($menu)
 	<div id="footer"><div>
 		<div class="left">&copy; <?php echo date ('Y')?> Frito Pies & More. All Rights Reserved.</div>
 		<div class="right">Site by <a href="http://www.ccistudios.com" target="_blank">CCI Studios</a></div>
+		<div class="clear"></div>
+		<div class="logo">
+			<a href="http://www.ontario.ca/" target="_blank">
+				<img src="templates/fritopies/images/Ministry_Logo.png" alt="Ministry of Ontario Logo" />
+			</a>
+		
+			<a href="http://www.theunitedway.on.ca" target="_blank">
+				<img src="templates/fritopies/images/united_way.png" alt="United Way" />
+			</a>
+		</div>
 	</div></div>	
 	
 	
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="xhtml" />
 		<div class="clear"></div>
-	</div>	
 	</div>
 	
 	<script type="text/javascript">
