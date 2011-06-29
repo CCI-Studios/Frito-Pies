@@ -62,7 +62,15 @@
 }
 /* bottom menu ends */
 
-/* media module begins */
+.module-newsflash .item > a {
+	color: #203165;
+	text-decoration: none;
+}
+
+.module-newsflash .item:first-child {
+	padding-top: 8px;
+}
+/* media module begins 
 .module-newsflash .item:first-child {
 	border-top: none;
 }
@@ -70,7 +78,7 @@
 	border-top: #d9d9d9 1px solid;
 	padding-bottom: 20px;
 }
-/* media module ends */
+ media module ends */
 
 /* tablestand begins */
 #tablestand .moduletable {
